@@ -30,7 +30,7 @@ export const NewComponent = (props: NewComponentPropsType) => {
                 </tr>
                 </thead>
                 <tbody>
-                {props.topCars.map((objectFromCarArray, index) => <tr key={objectFromCarArray.manufacturer}>
+                {props.topCars.map((objectFromCarArray) => <tr key={objectFromCarArray.manufacturer}>
                                  <td>{objectFromCarArray.manufacturer}</td>
                                  <td>{objectFromCarArray.model}</td>
                              </tr>
